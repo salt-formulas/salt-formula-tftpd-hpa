@@ -8,7 +8,7 @@ tftpd_hpa_package:
 tftpd_hpa_service:
   service.running:
   - name: {{ server.service }}
-  - enabled: true
+  - enable: true
   - running: true
 
 {%- endif %}

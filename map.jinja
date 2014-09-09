@@ -1,5 +1,5 @@
 
-{% load_yaml as raw_server %}
+{%- load_yaml as raw_server %}
 Debian:
   pkgs:
   - tftpd-hpa
@@ -16,6 +16,6 @@ RedHat:
   - syslinux
   root: /var/lib/tftpboot/
   service: tftpd-hpa
-{% endload %}
+{%- endload %}
 
-{% set server = salt['grains.filter_by'](raw_server, merge=salt['pillar.get']('tftpd_hpa:server')) %}
+{%- set server = salt['grains.filter_by'](raw_server, merge=salt['pillar.get']('tftpd_hpa:server')) %}
