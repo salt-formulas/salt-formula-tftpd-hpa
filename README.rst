@@ -7,6 +7,8 @@ A TFTP server is mainly required for booting operating systems or configurations
 
 TFTPD HPA server
 
+.. code-block:: yaml
+
     tftpd_hpa:
       server:
         enabled: true
