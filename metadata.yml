@@ -1,0 +1,4 @@
+name: "tftpd_hpa"
+version: "0.2"
+source: "https://git.tcpcloud.eu/saltstack-formulas/tftpd-hpa-formula.git"
+

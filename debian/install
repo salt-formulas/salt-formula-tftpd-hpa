@@ -1,0 +1,2 @@
+tftpd_hpa/*             /usr/share/salt-formulas/env/tftpd_hpa/
+metadata/service/*      /usr/share/salt-formulas/reclass/service/tftpd_hpa/
