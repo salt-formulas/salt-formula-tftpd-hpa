@@ -1,9 +1,14 @@
 
-# TFTPD HPA server
+=================
+TFTPD HPA formula
+=================
 
-A TFTP server is mainly required for booting operating systems or configurations over the network. 
+A TFTP server is mainly required for booting operating systems or
+configurations over the network.
 
-## Sample pillars
+
+Sample pillars
+==============
 
 TFTPD HPA server
 
@@ -13,9 +18,12 @@ TFTPD HPA server
       server:
         enabled: true
 
-## Read more
+
+More information
+================
 
 * http://chschneider.eu/linux/server/tftpd-hpa.shtml
+
 
 Documentation and Bugs
 ======================
